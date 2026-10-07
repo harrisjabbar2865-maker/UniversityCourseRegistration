@@ -19,5 +19,9 @@ public class Registration {
         System.out.println();
 
         course.displayCourse();
+
+        System.out.println();
+
+        System.out.println("Registration confirmed successfully!");
     }
 }
