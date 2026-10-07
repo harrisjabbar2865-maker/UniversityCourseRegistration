@@ -16,12 +16,9 @@ public class Main {
                 3
         );
 
-        System.out.println("===== STUDENT INFORMATION =====");
-        student.displayStudent();
+        Registration registration =
+                new Registration(student, course);
 
-        System.out.println();
-
-        System.out.println("===== COURSE INFORMATION =====");
-        course.displayCourse();
+        registration.displayRegistration();
     }
 }
