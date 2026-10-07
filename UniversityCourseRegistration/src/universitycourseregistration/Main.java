@@ -10,8 +10,18 @@ public class Main {
                 "Software Engineering"
         );
 
-        System.out.println("===== STUDENT INFORMATION =====");
+        Course course = new Course(
+                "SCD-201",
+                "Software Configuration and Deployment",
+                3
+        );
 
+        System.out.println("===== STUDENT INFORMATION =====");
         student.displayStudent();
+
+        System.out.println();
+
+        System.out.println("===== COURSE INFORMATION =====");
+        course.displayCourse();
     }
 }
