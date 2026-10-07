@@ -21,10 +21,7 @@ public class Registration {
         course.displayCourse();
 
         System.out.println();
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
         System.out.println("Registration confirmed successfully!");
     }
 }
